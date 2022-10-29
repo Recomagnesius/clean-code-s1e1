@@ -1,25 +1,25 @@
 /* Basic Style */
-body {
+.container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.diagram {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.diagram__image {
   width: 100%;
 }
-.aaa .more_inf {
+.diagram__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.aaa { 
+.diagram { 
   text-align: center;
 }
 
