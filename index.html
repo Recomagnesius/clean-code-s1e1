@@ -13,10 +13,10 @@
     <div class="main-content">
       <p class="add-item-block">
         <label class="add-item-block__label any-item-block-label" for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+        <div class="add-item-block__form">
           <input
               id="new-task"
-              class="task"
+              class="add-item-block__input any-item-block-input"
               type="text">
           <button>Add</button>
         </div>
@@ -25,8 +25,8 @@
       <ul id="incompleteTasks">
         <li>
           <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+          <label class="any-item-block-input">Pay Bills</label>
+          <input type="text" class="any-item-block-input">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg" alt="Remove icon">
@@ -34,11 +34,11 @@
         </li>
         <li class="editMode">
           <input type="checkbox">
-          <label class="task">Go Shopping</label>
+          <label class="any-item-block-input">Go Shopping</label>
           <input 
               type="text"
               value="Go Shopping"
-              class="task">
+              class="any-item-block-input">
           <button class="edit">Save</button>
           <button class="delete">
             <img src="./remove.svg" alt="Remove icon">
@@ -49,8 +49,8 @@
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <label class="any-item-block-input">See the Doctor</label>
+          <input type="text" class="any-item-block-input">
           <button class="edit">Edit</button>
           <button class="delete">
             <img src="./remove.svg" alt="Remove icon">

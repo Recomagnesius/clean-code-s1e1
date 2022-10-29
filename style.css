@@ -29,12 +29,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.any-item-block-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-item-block__form {
   display: flex;
 }
 ul {
@@ -92,7 +92,7 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.add-item-block__input {
   width: 318px;
 }
 
