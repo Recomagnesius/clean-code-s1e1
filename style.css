@@ -125,12 +125,12 @@ button{
 .any-item-block >  .any-item-block__input--input {
   width: 226px;
 }
-.any-item-block__button.any-item-block__button--delete img {
+.any-item-block__button.any-item-block__button--delete .any-item-block__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.any-item-block__button.any-item-block__button--delete img:hover {
+.any-item-block__button.any-item-block__button--delete .any-item-block__delete-img:hover {
   transform: rotateZ(0);
 }
 
