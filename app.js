@@ -89,7 +89,7 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('input[type=text]');
+    var editInput=listItem.querySelector('.any-item-block__input--input');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".any-item-block__button--edit");
     var containsClass=listItem.classList.contains("any-item-block--edit");
@@ -162,7 +162,7 @@ addButton.addEventListener("click",ajaxRequest);
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
-    var checkBox=taskListItem.querySelector("input[type=checkbox]");
+    var checkBox=taskListItem.querySelector(".any-item-block__checkbox");
     var editButton=taskListItem.querySelector("button.any-item-block__button--edit");
     var deleteButton=taskListItem.querySelector("button.any-item-block__button--delete");
 
