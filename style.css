@@ -145,11 +145,11 @@ button{
   display: none;
 }
 
-.any-item-block.editMode .any-item-block__input--input {
+.any-item-block.any-item-block--edit .any-item-block__input--input {
   display: inline-block;
   width: 224px;
 }
 
-.any-item-block.editMode .any-item-block__input--label {
+.any-item-block.any-item-block--edit .any-item-block__input--label {
   display: none;
 }
