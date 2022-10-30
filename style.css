@@ -132,21 +132,21 @@ button{
 }
 
 /* Completed */
-ul#completed-tasks label {
+.completed-tasks-section .any-item-block__input--label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul .any-item-block .any-item-block__input--input {
+.any-item-block .any-item-block__input--input {
   display: none;
 }
 
-ul .any-item-block.editMode .any-item-block__input--input {
+.any-item-block.editMode .any-item-block__input--input {
   display: inline-block;
   width: 224px;
 }
 
-ul .any-item-block.editMode label {
+.any-item-block.editMode label {
   display: none;
 }
