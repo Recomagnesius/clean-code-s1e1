@@ -29,12 +29,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.any-item-block-input {
+.any-item-block__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.add-item-block__form {
+.add-item-section__form {
   display: flex;
 }
 .any-items-section {
@@ -42,14 +42,14 @@
   padding: 0px;
 }
 .any-item-block,
-.any-item-block-label {
+.any-items-section__label {
   list-style: none;
 }
 input,
 button{
   outline: none;
 }
-.any-item-block-button {
+.any-item-block__button {
   background: none;
   border: 0px;
   color: #888;
@@ -58,11 +58,11 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.any-item-block-button:hover {
+.any-item-block__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.any-item-block-label {
+.any-items-section__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,11 +88,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.add-item-block__label {
+.add-item-section__label {
   display: block;
   margin: 0 0 20px;
 }
-.add-item-block__input {
+.add-item-section__input {
   width: 318px;
 }
 
@@ -110,7 +110,7 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.any-item-block > input[type="checkbox"] {
+.any-item-block__checkbox {
   margin: 0 10px;
 }
 .any-item-block > label {
@@ -122,12 +122,12 @@ input[type="text"]:focus {
 .any-item-block >  input[type="text"] {
   width: 226px;
 }
-.any-item-block-button.delete img {
+.any-item-block__button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.any-item-block-button.delete img:hover {
+.any-item-block__button.delete img:hover {
   transform: rotateZ(0);
 }
 
