@@ -106,7 +106,10 @@ button{
   justify-content: space-between;
   align-items: center;
 }
-.any-item-block > * {
+/* .any-item-block > *  */
+.any-item-block__checkbox,
+.any-item-block__input,
+.any-item-block__button{
   vertical-align: middle;
 }
 
