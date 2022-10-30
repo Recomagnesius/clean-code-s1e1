@@ -116,7 +116,7 @@ button{
 .any-item-block__checkbox {
   margin: 0 10px;
 }
-.any-item-block > label {
+.any-item-block > .any-item-block__input--label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
